@@ -1,8 +1,10 @@
  # Created by Jason Melbourne November 24 2012, Data from Politico 
- #Col 1:state: State 
- #Col 2: seatTot: Total Seats 
- # Col 3:seatDem Dem Seats # Col 4:contSeatTot: Contested Seats 
- # Col 5: contSeatDem: Contested Dem Win # Col 6: contVoteTot: Contested Vote Tot 
+ # Col 1: state: State 
+ # Col 2: seatTot: Total Seats 
+ # Col 3: seatDem: Dem Seats 
+ # Col 4: contSeatTot: Contested Seats 
+ # Col 5: contSeatDem: Contested Dem Win 
+ # Col 6: contVoteTot: Contested Vote Tot 
  # Col 7: contVoteDem: Contested Dem Vote 
 state	seatTot	seatDem	contSeatTot	contSeatDem	contVoteTot	contVoteDem 
 alabama                 7    1    6    1    1719507     688410 

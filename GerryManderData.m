@@ -18,9 +18,9 @@ int main (int argc, const char * argv[]) {
 						  @"west-virginia",@"wisconsin",@"wyoming",nil];
 
 	NSLog(@"number of states= %i",[stateNames count]);
-	float fractionDistricts;
-	float fractionCompDistricts;
-	float fractionVote;
+//	float fractionDistricts;
+//	float fractionCompDistricts;
+//	float fractionVote;
 	
 	NSString * filename=[NSString stringWithFormat:@"/Users/jmel/objectiveC/GerryManderData/gerrymanderState.txt"];
 	NSString * filenameDistrict=[NSString stringWithFormat:@"/Users/jmel/objectiveC/GerryManderData/gerrymanderDistrict.txt"];
@@ -29,11 +29,11 @@ int main (int argc, const char * argv[]) {
 	NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:filename];
 	NSFileHandle *fileHandleDistrict = [NSFileHandle fileHandleForWritingAtPath:filenameDistrict];
 	
-	NSString *hdr =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n #Col 1:state: State \n #Col 2: seatTot: Total Seats \n # Col 3:seatDem Dem Seats # Col 4:contSeatTot: Contested Seats \n # Col 5: contSeatDem: Contested Dem Win # Col 6: contVoteTot: Contested Vote Tot \n # Col 7: contVoteDem: Contested Dem Vote \n"];
+	NSString *hdr =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n # Col 1: state: State \n # Col 2: seatTot: Total Seats \n # Col 3: seatDem: Dem Seats \n # Col 4: contSeatTot: Contested Seats \n # Col 5: contSeatDem: Contested Dem Win \n # Col 6: contVoteTot: Contested Vote Tot \n # Col 7: contVoteDem: Contested Dem Vote \n"];
 	[fileHandle writeData:[hdr dataUsingEncoding:NSUTF8StringEncoding]];
 	[fileHandle writeData:[@"state	seatTot	seatDem	contSeatTot	contSeatDem	contVoteTot	contVoteDem \n" dataUsingEncoding:NSUTF8StringEncoding]];
 		
-	NSString *hdrDist =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n #Col 1:state: State \n #Col 2: district: district number \n # Col 3: party: Held by Party \n # Col 4: demVote: Democratic Vote # Col 5:repVote: Republican Vote \n "];
+	NSString *hdrDist =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n # Col 1: state: State \n # Col 2: district: district number \n # Col 3: party: Held by Party \n # Col 4: demVote: Democratic Vote \n # Col 5: repVote: Republican Vote \n "];
 	[fileHandleDistrict writeData:[hdrDist dataUsingEncoding:NSUTF8StringEncoding]];
 	[fileHandleDistrict writeData:[@"state	district	party	demVote	repVote \n" dataUsingEncoding:NSUTF8StringEncoding]];
 	

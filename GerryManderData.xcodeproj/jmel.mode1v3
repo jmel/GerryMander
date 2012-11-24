@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>1DAB9D6A16618FFE001523FA</string>
+						<string>1DAB9D83166193AB001523FA</string>
 						<key>history</key>
 						<array>
 							<string>1DAB9C0C1660531C001523FA</string>
@@ -366,7 +366,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1DAB9D6916618FFE001523FA</string>
+										<string>1DAB9D82166193AB001523FA</string>
 										<key>history</key>
 										<array>
 											<string>1DAB9D3416618CB2001523FA</string>
@@ -577,7 +577,6 @@
 		<string>1DAB9C0E1660531C001523FA</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1DAB9BA4166044A0001523FA</string>
 		<string>/Users/jmel/objectiveC/GerryManderData/GerryManderData.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
