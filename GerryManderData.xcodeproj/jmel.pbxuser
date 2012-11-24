@@ -8,8 +8,8 @@
 			8DD76F960486AA7600D96B5E /* GerryManderData */,
 		);
 		breakpoints = (
-			1DAB9C201660549A001523FA /* GerryManderData.m:51 */,
-			1DAB9CC916611C83001523FA /* GerryManderData.m:31 */,
+			1DAB9C201660549A001523FA /* GerryManderData.m:66 */,
+			1DAB9CC916611C83001523FA /* GerryManderData.m:39 */,
 		);
 		codeSenseManager = 1DAB9B6516603283001523FA /* Code sense */;
 		executables = (
@@ -123,6 +123,32 @@
 			1DAB9D2A166143D8001523FA /* PBXTextBookmark */ = 1DAB9D2A166143D8001523FA /* PBXTextBookmark */;
 			1DAB9D2D1661442D001523FA /* PBXTextBookmark */ = 1DAB9D2D1661442D001523FA /* PBXTextBookmark */;
 			1DAB9D2E1661442D001523FA /* PBXTextBookmark */ = 1DAB9D2E1661442D001523FA /* PBXTextBookmark */;
+			1DAB9D3116618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3116618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3216618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3216618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3316618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3316618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3416618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3416618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3516618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3516618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3616618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3616618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D3716618CB2001523FA /* PBXTextBookmark */ = 1DAB9D3716618CB2001523FA /* PBXTextBookmark */;
+			1DAB9D4016618DB4001523FA /* XCBuildMessageTextBookmark */ = 1DAB9D4016618DB4001523FA /* XCBuildMessageTextBookmark */;
+			1DAB9D4116618DB4001523FA /* PBXTextBookmark */ = 1DAB9D4116618DB4001523FA /* PBXTextBookmark */;
+			1DAB9D5216618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5216618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5316618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5316618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5416618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5416618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5516618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5516618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5616618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5616618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5716618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5716618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5816618ED5001523FA /* PBXTextBookmark */ = 1DAB9D5816618ED5001523FA /* PBXTextBookmark */;
+			1DAB9D5B16618F19001523FA /* PBXTextBookmark */ = 1DAB9D5B16618F19001523FA /* PBXTextBookmark */;
+			1DAB9D5C16618F19001523FA /* PBXTextBookmark */ = 1DAB9D5C16618F19001523FA /* PBXTextBookmark */;
+			1DAB9D5D16618F19001523FA /* PBXTextBookmark */ = 1DAB9D5D16618F19001523FA /* PBXTextBookmark */;
+			1DAB9D5E16618F19001523FA /* PBXTextBookmark */ = 1DAB9D5E16618F19001523FA /* PBXTextBookmark */;
+			1DAB9D5F16618F47001523FA /* PBXTextBookmark */ = 1DAB9D5F16618F47001523FA /* PBXTextBookmark */;
+			1DAB9D6016618F47001523FA /* PBXTextBookmark */ = 1DAB9D6016618F47001523FA /* PBXTextBookmark */;
+			1DAB9D6516618FA7001523FA /* PBXTextBookmark */ = 1DAB9D6516618FA7001523FA /* PBXTextBookmark */;
+			1DAB9D6616618FA7001523FA /* PBXTextBookmark */ = 1DAB9D6616618FA7001523FA /* PBXTextBookmark */;
+			1DAB9D6916618FFE001523FA /* PBXTextBookmark */ = 1DAB9D6916618FFE001523FA /* PBXTextBookmark */;
+			1DAB9D6A16618FFE001523FA /* PBXTextBookmark */ = 1DAB9D6A16618FFE001523FA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1DAB9B6416603283001523FA /* Source Control */;
 		userBuildSettings = {
@@ -130,9 +156,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* GerryManderData.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2245, 689}}";
-			sepNavSelRange = "{1151, 0}";
-			sepNavVisRange = "{741, 1872}";
+			sepNavIntBoundsRect = "{{0, 0}, {2595, 923}}";
+			sepNavSelRange = "{3714, 0}";
+			sepNavVisRange = "{2129, 1891}";
 		};
 	};
 	1DAB9B5E16603264001523FA /* GerryManderData */ = {
@@ -191,9 +217,9 @@
 	};
 	1DAB9B69166032BF001523FA /* State.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 2704}}";
+			sepNavIntBoundsRect = "{{0, 0}, {726, 3107}}";
 			sepNavSelRange = "{365, 0}";
-			sepNavVisRange = "{191, 1100}";
+			sepNavVisRange = "{0, 853}";
 		};
 	};
 	1DAB9C041660531C001523FA /* PBXTextBookmark */ = {
@@ -221,7 +247,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 8";
 		rLen = 0;
-		rLoc = 984;
+		rLoc = 1012;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 96;
@@ -231,7 +257,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 7";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 1011;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 96;
@@ -241,7 +267,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 72";
 		rLen = 0;
-		rLoc = 1864;
+		rLoc = 1876;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 1380;
@@ -251,12 +277,12 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 73";
 		rLen = 0;
-		rLoc = 1922;
+		rLoc = 1934;
 		rType = 0;
 		vrLen = 1447;
 		vrLoc = 545;
 	};
-	1DAB9C201660549A001523FA /* GerryManderData.m:51 */ = {
+	1DAB9C201660549A001523FA /* GerryManderData.m:66 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -268,7 +294,7 @@
 		functionName = "main()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 51;
+		lineNumber = 66;
 		location = GerryManderData;
 		modificationTime = 375463738.804984;
 		originalNumberOfMultipleMatches = 1;
@@ -276,17 +302,17 @@
 	};
 	1DAB9C3516606F20001523FA /* DistrictResults.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {726, 600}}";
-			sepNavSelRange = "{317, 0}";
-			sepNavVisRange = "{0, 324}";
+			sepNavIntBoundsRect = "{{0, 0}, {885, 418}}";
+			sepNavSelRange = "{280, 0}";
+			sepNavVisRange = "{0, 422}";
 			sepNavWindowFrame = "{{84, 82}, {785, 728}}";
 		};
 	};
 	1DAB9C3616606F20001523FA /* DistrictResults.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
-			sepNavSelRange = "{182, 0}";
-			sepNavVisRange = "{0, 265}";
+			sepNavIntBoundsRect = "{{0, 0}, {885, 418}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 309}";
 		};
 	};
 	1DAB9C381660701E001523FA /* PBXBookmark */ = {
@@ -298,7 +324,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 7";
 		rLen = 0;
-		rLoc = 249;
+		rLoc = 277;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 34;
@@ -322,7 +348,7 @@
 		fRef = 1DAB9C3616606F20001523FA /* DistrictResults.m */;
 		name = "DistrictResults.m: 16";
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -332,7 +358,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 76";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1581;
 		vrLoc = 778;
@@ -352,7 +378,7 @@
 		fRef = 1DAB9C3616606F20001523FA /* DistrictResults.m */;
 		name = "DistrictResults.m: 16";
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -362,7 +388,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 73";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1659;
 		vrLoc = 711;
@@ -382,7 +408,7 @@
 		fRef = 1DAB9C3616606F20001523FA /* DistrictResults.m */;
 		name = "DistrictResults.m: 16";
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -392,7 +418,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 73";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1730;
 		vrLoc = 711;
@@ -432,7 +458,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 15";
 		rLen = 0;
-		rLoc = 2141;
+		rLoc = 3168;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 34;
@@ -442,7 +468,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 15";
 		rLen = 0;
-		rLoc = 2141;
+		rLoc = 3168;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 0;
@@ -452,7 +478,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -462,7 +488,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 17";
 		rLen = 0;
-		rLoc = 2019;
+		rLoc = 3044;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 0;
@@ -472,7 +498,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -482,7 +508,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 17";
 		rLen = 0;
-		rLoc = 925;
+		rLoc = 953;
 		rType = 0;
 		vrLen = 1570;
 		vrLoc = 0;
@@ -492,7 +518,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -502,7 +528,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 23";
 		rLen = 0;
-		rLoc = 1791;
+		rLoc = 2812;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 52;
@@ -522,7 +548,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 81";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 1565;
 		vrLoc = 1571;
@@ -532,7 +558,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -542,7 +568,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 81";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 190;
@@ -552,7 +578,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -562,7 +588,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 81";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 190;
@@ -572,7 +598,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -582,7 +608,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 81";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 190;
@@ -592,7 +618,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 48";
 		rLen = 0;
-		rLoc = 2707;
+		rLoc = 4019;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 984;
@@ -602,7 +628,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -612,7 +638,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 44";
 		rLen = 0;
-		rLoc = 2707;
+		rLoc = 4019;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 984;
@@ -622,7 +648,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -632,7 +658,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 39";
 		rLen = 0;
-		rLoc = 2632;
+		rLoc = 3516;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 876;
@@ -642,12 +668,12 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
 	};
-	1DAB9CC916611C83001523FA /* GerryManderData.m:31 */ = {
+	1DAB9CC916611C83001523FA /* GerryManderData.m:39 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -659,7 +685,7 @@
 		functionName = "main()";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 31;
+		lineNumber = 39;
 		location = GerryManderData;
 		modificationTime = 375463739.141041;
 		originalNumberOfMultipleMatches = 1;
@@ -670,7 +696,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 39";
 		rLen = 0;
-		rLoc = 2632;
+		rLoc = 3516;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 876;
@@ -680,7 +706,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 42";
 		rLen = 0;
-		rLoc = 2707;
+		rLoc = 4019;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 876;
@@ -690,7 +716,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -700,7 +726,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 24";
 		rLen = 0;
-		rLoc = 1334;
+		rLoc = 1582;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 876;
@@ -710,7 +736,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2161;
 		vrLoc = 965;
@@ -720,7 +746,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 24";
 		rLen = 0;
-		rLoc = 1235;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 876;
@@ -730,7 +756,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -740,7 +766,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2246;
+		rLoc = 3249;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 876;
@@ -750,7 +776,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -760,7 +786,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2190;
+		rLoc = 3217;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 876;
@@ -770,7 +796,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -780,7 +806,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2190;
+		rLoc = 3217;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 876;
@@ -790,7 +816,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -800,7 +826,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2246;
+		rLoc = 3249;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 876;
@@ -810,7 +836,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -820,7 +846,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2246;
+		rLoc = 3249;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 876;
@@ -830,7 +856,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2243;
+		rLoc = 3249;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 876;
@@ -840,7 +866,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -850,7 +876,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 36";
 		rLen = 0;
-		rLoc = 2246;
+		rLoc = 3249;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 876;
@@ -860,7 +886,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -870,7 +896,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 38";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 3343;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 876;
@@ -880,7 +906,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 85";
 		rLen = 0;
-		rLoc = 2371;
+		rLoc = 2435;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 965;
@@ -890,7 +916,7 @@
 		fRef = 1DAB9B69166032BF001523FA /* State.m */;
 		name = "State.m: 92";
 		rLen = 0;
-		rLoc = 3060;
+		rLoc = 3124;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 1554;
@@ -920,7 +946,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 41";
 		rLen = 0;
-		rLoc = 2497;
+		rLoc = 3445;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 932;
@@ -930,7 +956,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 41";
 		rLen = 0;
-		rLoc = 2497;
+		rLoc = 3445;
 		rType = 0;
 		vrLen = 1695;
 		vrLoc = 603;
@@ -950,7 +976,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 33";
 		rLen = 0;
-		rLoc = 1692;
+		rLoc = 2086;
 		rType = 0;
 		vrLen = 1574;
 		vrLoc = 1162;
@@ -970,7 +996,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 28";
 		rLen = 0;
-		rLoc = 1661;
+		rLoc = 2055;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 1162;
@@ -990,7 +1016,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 28";
 		rLen = 0;
-		rLoc = 1394;
+		rLoc = 1807;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 1162;
@@ -1010,7 +1036,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 28";
 		rLen = 0;
-		rLoc = 1661;
+		rLoc = 2055;
 		rType = 0;
 		vrLen = 1612;
 		vrLoc = 1162;
@@ -1030,7 +1056,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
 		name = "GerryManderData.m: 24";
 		rLen = 0;
-		rLoc = 1151;
+		rLoc = 1179;
 		rType = 0;
 		vrLen = 1872;
 		vrLoc = 741;
@@ -1044,6 +1070,265 @@
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 191;
+	};
+	1DAB9D3116618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 61";
+		rLen = 0;
+		rLoc = 3906;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 2244;
+	};
+	1DAB9D3216618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9C3516606F20001523FA /* DistrictResults.h */;
+		name = "DistrictResults.h: 21";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	1DAB9D3316618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9C3616606F20001523FA /* DistrictResults.m */;
+		name = "DistrictResults.m: 18";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	1DAB9D3416618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B68166032BF001523FA /* State.h */;
+		name = "State.h: 32";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 83;
+	};
+	1DAB9D3516618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 96";
+		rLen = 0;
+		rLoc = 3175;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 1681;
+	};
+	1DAB9D3616618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 83";
+		rLen = 0;
+		rLoc = 2100;
+		rType = 0;
+		vrLen = 1691;
+		vrLoc = 1681;
+	};
+	1DAB9D3716618CB2001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	1DAB9D4016618DB4001523FA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'districtNum' in something not a structure or union";
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 61;
+		rType = 1;
+	};
+	1DAB9D4116618DB4001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 60";
+		rLen = 0;
+		rLoc = 3820;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 3157;
+	};
+	1DAB9D5216618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9C3516606F20001523FA /* DistrictResults.h */;
+		name = "DistrictResults.h: 16";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 422;
+		vrLoc = 0;
+	};
+	1DAB9D5316618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9C3616606F20001523FA /* DistrictResults.m */;
+		name = "DistrictResults.m: 18";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	1DAB9D5416618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* GerryManderData_Prefix.pch */;
+		name = "GerryManderData_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 172;
+		vrLoc = 0;
+	};
+	1DAB9D5516618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 66";
+		rLen = 0;
+		rLoc = 4014;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 2857;
+	};
+	1DAB9D5616618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 83";
+		rLen = 0;
+		rLoc = 2100;
+		rType = 0;
+		vrLen = 1691;
+		vrLoc = 1681;
+	};
+	1DAB9D5716618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 103";
+		rLen = 0;
+		rLoc = 3329;
+		rType = 0;
+		vrLen = 1677;
+		vrLoc = 1681;
+	};
+	1DAB9D5816618ED5001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	1DAB9D5B16618F19001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 103";
+		rLen = 0;
+		rLoc = 3329;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 1061;
+	};
+	1DAB9D5C16618F19001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 66";
+		rLen = 0;
+		rLoc = 4014;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 2854;
+	};
+	1DAB9D5D16618F19001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 26";
+		rLen = 0;
+		rLoc = 1324;
+		rType = 0;
+		vrLen = 2338;
+		vrLoc = 904;
+	};
+	1DAB9D5E16618F19001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	1DAB9D5F16618F47001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 34";
+		rLen = 0;
+		rLoc = 2227;
+		rType = 0;
+		vrLen = 2374;
+		vrLoc = 698;
+	};
+	1DAB9D6016618F47001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	1DAB9D6516618FA7001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 54";
+		rLen = 0;
+		rLoc = 3494;
+		rType = 0;
+		vrLen = 2327;
+		vrLoc = 1328;
+	};
+	1DAB9D6616618FA7001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	1DAB9D6916618FFE001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* GerryManderData.m */;
+		name = "GerryManderData.m: 60";
+		rLen = 0;
+		rLoc = 3714;
+		rType = 0;
+		vrLen = 1891;
+		vrLoc = 2129;
+	};
+	1DAB9D6A16618FFE001523FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DAB9B69166032BF001523FA /* State.m */;
+		name = "State.m: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
 	};
 	32A70AAB03705E1F00C91783 /* GerryManderData_Prefix.pch */ = {
 		uiCtxt = {

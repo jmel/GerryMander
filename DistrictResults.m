@@ -13,5 +13,7 @@
 
 @synthesize demVote;
 @synthesize repVote;
+@synthesize districtNum;
+@synthesize party;
 
 @end

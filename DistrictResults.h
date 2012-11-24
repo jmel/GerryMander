@@ -12,8 +12,12 @@
 @interface DistrictResults : NSObject {
 	long demVote;
 	long repVote;
+	int districtNum;
+	char party;
 }
 @property (assign) long demVote;
 @property (assign) long repVote;
+@property (assign) int districtNum;
+@property (assign) char party;
 
 @end

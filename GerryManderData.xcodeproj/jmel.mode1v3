@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>1DAB9D2E1661442D001523FA</string>
+						<string>1DAB9D6A16618FFE001523FA</string>
 						<key>history</key>
 						<array>
 							<string>1DAB9C0C1660531C001523FA</string>
@@ -366,14 +366,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1DAB9D2D1661442D001523FA</string>
+										<string>1DAB9D6916618FFE001523FA</string>
 										<key>history</key>
 										<array>
-											<string>1DAB9C6916607ACE001523FA</string>
-											<string>1DAB9D0F166140AD001523FA</string>
-											<string>1DAB9D10166140AD001523FA</string>
-											<string>1DAB9D11166140AD001523FA</string>
-											<string>1DAB9D12166140AD001523FA</string>
+											<string>1DAB9D3416618CB2001523FA</string>
+											<string>1DAB9D5216618ED5001523FA</string>
+											<string>1DAB9D5316618ED5001523FA</string>
+											<string>1DAB9D5416618ED5001523FA</string>
+											<string>1DAB9D5B16618F19001523FA</string>
+											<string>1DAB9D5C16618F19001523FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -575,8 +576,8 @@
 		<string>1DAB9C191660531C001523FA</string>
 		<string>1DAB9C0E1660531C001523FA</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1DAB9BA4166044A0001523FA</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1DAB9BA4166044A0001523FA</string>
 		<string>/Users/jmel/objectiveC/GerryManderData/GerryManderData.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -601,7 +602,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>GerryManderData.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -618,6 +619,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

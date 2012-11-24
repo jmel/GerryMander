@@ -1,0 +1,57 @@
+ # Created by Jason Melbourne November 24 2012, Data from Politico 
+ #Col 1:state: State 
+ #Col 2: seatTot: Total Seats 
+ # Col 3:seatDem Dem Seats # Col 4:contSeatTot: Contested Seats 
+ # Col 5: contSeatDem: Contested Dem Win # Col 6: contVoteTot: Contested Vote Tot 
+ # Col 7: contVoteDem: Contested Dem Vote 
+state	seatTot	seatDem	contSeatTot	contSeatDem	contVoteTot	contVoteDem 
+alabama                 7    1    6    1    1719507     688410 
+alaska                  1    0    1    0     226717      69723 
+arizona                 9    5    9    5    1933973     862520 
+arkansas                4    0    4    0     969401     340927 
+california             53   38   53   38   10441737    6023618 
+colorado                7    3    7    3    2153472    1066856 
+connecticut             5    5    5    5    1429801     937666 
+delaware                1    1    1    1     379654     249905 
+florida                27   10   25    9    7390862    3497894 
+georgia                14    5   11    5    2895527    1439127 
+hawaii                  2    2    2    2     417557     281841 
+idaho                   2    0    2    0     614909     208220 
+illinois               18   12   18   12    4802418    2640819 
+indiana                 9    2    9    2    2472783    1130191 
+iowa                    4    2    4    2    1491503     766634 
+kansas                  4    0    3    0     796900     279946 
+kentucky                7    1    7    1    1989581     788678 
+louisiana               6    1    6    1    1484114     445049 
+maine                   2    2    2    2     686655     423023 
+maryland                8    7    8    7    2314217    1481895 
+massachusetts           9    9    7    7    2278165    1544103 
+michigan               15    6   15    6    4719504    2484151 
+minnesota               8    5    8    5    2774305    1562472 
+mississippi             4    1    4    1    1106863     440236 
+missouri                8    2    8    2    2571468    1111238 
+montana                 1    0    1    0     456455     203748 
+nebraska                3    0    3    0     747636     264154 
+nevada                  4    2    4    2     907765     451452 
+new-hampshire           2    2    2    2     650650     340310 
+new-jersey             13    7   13    7    3142757    1796036 
+new-mexico              3    2    3    2     754913     415456 
+new-york               27   21   27   21    5689314    3652498 
+north-carolina         13    4   13    4    4362283    2219165 
+north-dakota            1    0    1    0     304301     131396 
+ohio                   16    4   14    3    4381064    2065814 
+oklahoma                5    0    5    0    1264566     409482 
+oregon                  5    4    5    4    1589076     919497 
+pennsylvania           18    5   18    5    5374461    2722560 
+rhode-island            2    2    2    2     388470     227600 
+south-carolina          7    1    6    1    1561929     731396 
+south-dakota            1    0    1    0     361306     153725 
+tennessee               9    2    9    2    2185286     824295 
+texas                  36   12   35   12    7252015    3017003 
+utah                    4    1    4    1     883088     295293 
+vermont                 1    1    1    1     276782     209271 
+virginia               11    3   11    3    3570098    1736164 
+washington             11    7   11    7    3121162    1708649 
+west-virginia           3    1    3    1     633046     253741 
+wisconsin               8    3    8    3    2841407    1442491 
+wyoming                 1    0    1    0     222921      57148 

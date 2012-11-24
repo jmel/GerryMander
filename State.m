@@ -70,14 +70,17 @@
 	
 	self.numDistricts=[districtNodes count];
 	
+	int c = 1;
 	for (id districtNode in districtNodes){
 		NSArray * compNodes=[districtNode nodesForXPath:xpathComps error:&error];
 		DistrictResults * voteResults=[[DistrictResults alloc] init];
 		NSRange range = [[[compNodes objectAtIndex:0] stringValue] rangeOfString:@"Dem"];
 		if (range.length != 0){
 			self.numDemDistricts ++;
+			voteResults.party='D';
 		} else {
 			self.numRepDistricts ++;
+			voteResults.party='R';
 		}
 
 		if ([compNodes count] >= 2) {
@@ -92,10 +95,12 @@
 				self.numCompRepDistricts ++;
 			}
 		}
+		voteResults.districtNum=c;
 		[self.districtResults addObject:voteResults];
 		self.demVote+=voteResults.demVote;
 		self.repVote+=voteResults.repVote;
 		[voteResults release];
+		c++;
 	}	
 } // end readStateData	
 		

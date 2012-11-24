@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "State.h"
+#import "DistrictResults.h"
 
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
@@ -21,13 +22,20 @@ int main (int argc, const char * argv[]) {
 	float fractionCompDistricts;
 	float fractionVote;
 	
-	NSString * filename=[NSString stringWithFormat:@"/Users/jmel/objectiveC/GerryManderData/gerrymander_state.dat"];
+	NSString * filename=[NSString stringWithFormat:@"/Users/jmel/objectiveC/GerryManderData/gerrymanderState.txt"];
+	NSString * filenameDistrict=[NSString stringWithFormat:@"/Users/jmel/objectiveC/GerryManderData/gerrymanderDistrict.txt"];
 	[[NSFileManager defaultManager] createFileAtPath:filename contents:nil attributes:nil];
+	[[NSFileManager defaultManager] createFileAtPath:filenameDistrict contents:nil attributes:nil];
 	NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:filename];
+	NSFileHandle *fileHandleDistrict = [NSFileHandle fileHandleForWritingAtPath:filenameDistrict];
 	
-	NSString *hdr =[NSString stringWithFormat:@" #1 State \n #2 Total Seats \n #3 Dem Seats \n #4 Rep Seats \n #5 Fraction Dem \n #6 Contested Seats \n #7 Contested Dem Win \n #8 Contested Rep Win \n # Fraction Contested Dem Win \n #9 Contested Dem Vote \n #10 Contested Rep Vote \n #11 Contested Dem Fraction Vote\n"];
+	NSString *hdr =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n #Col 1:state: State \n #Col 2: seatTot: Total Seats \n # Col 3:seatDem Dem Seats # Col 4:contSeatTot: Contested Seats \n # Col 5: contSeatDem: Contested Dem Win # Col 6: contVoteTot: Contested Vote Tot \n # Col 7: contVoteDem: Contested Dem Vote \n"];
 	[fileHandle writeData:[hdr dataUsingEncoding:NSUTF8StringEncoding]];
+	[fileHandle writeData:[@"state	seatTot	seatDem	contSeatTot	contSeatDem	contVoteTot	contVoteDem \n" dataUsingEncoding:NSUTF8StringEncoding]];
 		
+	NSString *hdrDist =[NSString stringWithFormat:@" # Created by Jason Melbourne November 24 2012, Data from Politico \n #Col 1:state: State \n #Col 2: district: district number \n # Col 3: party: Held by Party \n # Col 4: demVote: Democratic Vote # Col 5:repVote: Republican Vote \n "];
+	[fileHandleDistrict writeData:[hdrDist dataUsingEncoding:NSUTF8StringEncoding]];
+	[fileHandleDistrict writeData:[@"state	district	party	demVote	repVote \n" dataUsingEncoding:NSUTF8StringEncoding]];
 	
 	for (NSString * stateName in stateNames){
 		State * state=[[State alloc] initWithName:stateName];
@@ -35,23 +43,31 @@ int main (int argc, const char * argv[]) {
 		[state readStateData];
 //		[state gerryManderValue]; 
 		
-		fractionDistricts=(float)state.numDemDistricts/(float)state.numDistricts;
-		fractionVote=(float)state.demVote/(float)(state.demVote+state.repVote);
-		fractionCompDistricts=(float)state.numCompDemDistricts/(float)state.numCompDistricts;
+//		fractionDistricts=(float)state.numDemDistricts/(float)state.numDistricts;
+//		fractionVote=(float)state.demVote/(float)(state.demVote+state.repVote);
+//		fractionCompDistricts=(float)state.numCompDemDistricts/(float)state.numCompDistricts;
 		
-		NSString *str = [NSString stringWithFormat:@"%@ %4i %4i %4i %5.2f %4i %4i %4i %5.2f %10lld %10lld %5.2f \n",
+		NSString *str = [NSString stringWithFormat:@"%@ %4i %4i %4i %4i %10lld %10lld \n",
 						 [state.name stringByPaddingToLength:20 withString:@" " startingAtIndex:0],
-						 state.numDistricts, state.numDemDistricts, state.numRepDistricts,fractionDistricts,
-						 state.numCompDistricts, state.numCompDemDistricts, state.numCompRepDistricts,fractionCompDistricts,
-						 state.demVote+state.repVote,state.demVote,state.repVote, fractionVote];
-
+						 state.numDistricts, state.numDemDistricts, 
+						 state.numCompDistricts, state.numCompDemDistricts, 
+						 state.demVote+state.repVote,state.demVote];
 		NSLog(@"%@",str);
 		[fileHandle writeData:[str dataUsingEncoding:NSUTF8StringEncoding]];
 		
-
+		
+		for (DistrictResults * results in state.districtResults){ 
+			NSString *str2 = [NSString stringWithFormat:@"%@ %4i    %c %10lld %10lld \n",
+							  [state.name stringByPaddingToLength:20 withString:@" " startingAtIndex:0],
+							  results.districtNum,results.party,
+							  results.demVote,results.repVote];
+			NSLog(@"%@",str2);	
+			[fileHandleDistrict writeData:[str2 dataUsingEncoding:NSUTF8StringEncoding]];
+		}			  
 		[state release];
 	}
 	[fileHandle closeFile];
+	[fileHandleDistrict closeFile];
 	
     [pool drain];
     return 0;
