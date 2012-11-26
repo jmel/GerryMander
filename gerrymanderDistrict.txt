@@ -1,9 +1,9 @@
  # Created by Jason Melbourne November 24 2012, Data from Politico 
  # Col 1: state: State 
- # Col 2: district: district number 
+ # Col 2: district: district number (unique within a state only)
  # Col 3: party: Held by Party 
- # Col 4: demVote: Democratic Vote 
- # Col 5: repVote: Republican Vote 
+ # Col 4: demVote: Democratic Vote (count)
+ # Col 5: repVote: Republican Vote (count)
  state	district	party	demVote	repVote 
 alabama                 1    R          0          0 
 alabama                 2    R     102836     180339 
